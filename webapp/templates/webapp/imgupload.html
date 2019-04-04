@@ -1,0 +1,12 @@
+{% extends 'webapp/header.html' %}
+{% block title %}Apply Filter{% endblock %}\
+{% block content %}
+	<h1 align="center">Kane's Photo Filter</h1>
+	<div align="center">
+    	<form method = "post" enctype="multipart/form-data"> 
+        	{% csrf_token %} 
+        	{{ form.as_p }} 
+        	<button type="submit">Apply Filter</button> 
+    	</form>
+    </div> 
+{% endblock %}

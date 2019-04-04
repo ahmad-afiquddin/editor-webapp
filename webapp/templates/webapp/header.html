@@ -1,0 +1,15 @@
+<!DOCTYPE html> 
+<html lang="en">
+<head> 
+	{% load static %}
+	<link href='{% static "css/main.css" %}' rel='stylesheet'>
+	<link href="https://fonts.googleapis.com/css?family=Heebo|Lato|Montserrat|Raleway" rel="stylesheet">
+    <meta charset="UTF-8"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% block title %}{% endblock %}</title> 
+</head> 
+<body>
+	{% block content%}
+	{% endblock %}
+</body>
+</html> 

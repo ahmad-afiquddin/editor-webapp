@@ -1,0 +1,10 @@
+{% extends 'webapp/header.html' %}
+{% block title %}Edited Image{% endblock %}\
+{% block content %}
+	<h1 align="center">Successfully Applied Filter</h1>
+    <div align="center">
+    	{% if img %}
+    		<img src={{img.image.url}}>
+    	{% endif %}
+    </div>
+{% endblock %}
