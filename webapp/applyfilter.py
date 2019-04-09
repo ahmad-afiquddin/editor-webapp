@@ -1,8 +1,6 @@
 from PIL import Image, ImageOps, ImageFilter, ImageEnhance
 from PIL.ImageColor import getcolor,getrgb
 import copy
-import numpy as np
-import colorsys
 
 class Colors:
     RED = (254, 0, 2)

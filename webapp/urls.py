@@ -6,7 +6,7 @@ from django.conf.urls.static import static
 from . views import *
 
 urlpatterns = [
-    path('embed/', embed, name='embed'),
+    path('', edit, name='edit'),
     path('success/', success, name='success'),
 ]
 

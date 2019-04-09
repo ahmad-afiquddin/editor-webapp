@@ -6,7 +6,7 @@ import os
 
 
 # Create your views here.
-def embed(request):
+def edit(request):
 	if request.method == 'POST':
 		form = imguploadform(request.POST, request.FILES)
 
