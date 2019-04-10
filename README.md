@@ -1,4 +1,4 @@
-# Project Title
+# Kane's Image Editor
 
 This project is a django-based webapp that makes use of Python's imaging library PIL to apply filters to a user updated image
 
